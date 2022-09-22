@@ -10,7 +10,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /* style中引入格式 */
 #tab-bar {
   display: flex;
@@ -21,5 +21,6 @@ export default {
   bottom: 0;
   /* 阴影 X轴偏移 Y轴偏移 大小 颜色 */
   box-shadow: 0 -1px 1px rgba(100, 100, 100, 0.3);
+  z-index: 98;
 }
 </style>

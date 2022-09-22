@@ -5,6 +5,7 @@ const Home = () => import('../views/home/Home.vue')
 const Cart = () => import('../views/cart/Cart.vue')
 const Category = () => import('../views/category/Category.vue')
 const Profile = () => import('../views/profile/Profile.vue')
+const Detail = () => import('../views/detail/Detail.vue')
 
 // 1.安装插件
 Vue.use(VueRouter)
@@ -31,6 +32,11 @@ const routes = [
     path: '/profile',
     component: Profile
   },
+  // 商品详情路由,动态路由的方式：id
+  {
+    path: '/detail/:iid',
+    component: Detail
+  }
 ]
 
 // 2.创建router

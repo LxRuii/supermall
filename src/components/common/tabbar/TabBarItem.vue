@@ -32,7 +32,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .tab-bar-item {
   /* 布局均分 */
   flex: 1;
